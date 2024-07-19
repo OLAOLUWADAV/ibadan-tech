@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.ball{
+    border-radius: 100%;
+    padding: 0px;
+    background-color: lime;
+    width: 80px;
+    height: 80px;
+    transition: padding, background-color;
+    transition-duration: 4s;
+    transition-timing-function: ease-in-out;
+}
+.ball:hover{
+    background-color: blue;
+    padding: 300px;
+    transform:r(40) ;
+}
